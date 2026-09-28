@@ -185,7 +185,7 @@ unsigned float_i2f(int x) {
         i++;
     }
     unsigned m;
-    if(i<=23){
+    if(i<24){
         m=xx<<(23-i);
     }
     else{
@@ -277,7 +277,6 @@ int float64_f2i(unsigned uf1, unsigned uf2) {
         x=~x+1;
     }
     return x;
-    return 2;
 }
 
 /*
